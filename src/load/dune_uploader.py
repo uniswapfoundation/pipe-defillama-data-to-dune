@@ -440,11 +440,11 @@ class DuneUploader:
         """
         # Query ID for DeFiLlama Duplicate Detection query
         # Created via scripts/create_duplicate_detection_query.py
-        # Query URL: https://dune.com/queries/5917236
+        # Query URL: https://dune.com/queries/5960825
         #
         # For production
-        # return int(os.getenv("DUNE_DUPLICATE_DETECTION_QUERY_ID", "5917236"))
-        return 5917236
+        # return int(os.getenv("DUNE_DUPLICATE_DETECTION_QUERY_ID", "5960825"))
+        return 5960825
 
     def _get_query_results(self, execution_id: str, target_date: date) -> bool:
         """
